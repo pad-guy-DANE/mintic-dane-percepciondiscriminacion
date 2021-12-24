@@ -17,7 +17,7 @@ Este repositorio contiene las bases de datos de los Tweets publicados por DANE_C
 
 ## Tecnologías usadas
 
-Este ejercicio fue desarrollado utilizando el servicio de computación en la nube creado por Microsoft, [Microsoft Azure](https://azure.microsoft.com/es-es/). En adición, fue utlizada las plataformas [Databricks](https://databricks.com/) y [Google Drive](https://www.google.com/intl/es_co/drive/) así como los lenguajes de programación [Python](https://www.python.org/).
+Este ejercicio fue desarrollado utilizando el servicio de computación en la nube creado por Microsoft, [Microsoft Azure](https://azure.microsoft.com/es-es/). En adición, se utilizaron las plataformas [Databricks](https://databricks.com/) y [Google Drive](https://www.google.com/intl/es_co/drive/) así como los lenguajes de programación [Python](https://www.python.org/).
 
 De igual manera se usaron las siguientes librerías:
 
