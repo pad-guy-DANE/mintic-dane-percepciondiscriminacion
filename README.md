@@ -38,7 +38,7 @@ Este archivo, consta de 10 carpetas correspondientes a posts de perfiles públic
 * ``popular_base.rar`` <br>
 Este archivo, consta de 42 bases correspondientes a comentarios asociados a posts de 36 perfiles públicos de Facebook.
 
-En adición, se encuentra una bases de datos (ubicada en [`Datos-Ejemplo/Procesados`](Datos-Ejemplo/Procesados)):
+En adición, se encuentra una base de datos (ubicada en [`Datos-Ejemplo/Procesados`](Datos-Ejemplo/Procesados)):
 
 * ``cwg.part01.rar`` y ``cwg.part02.rar`` <br>
 Esta base consta de 771502 registros, correspondientes a posts y sus comentarios asociados para los, junto con preprocesamiento de texto de post y de comentario.
