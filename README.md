@@ -1,4 +1,4 @@
-![DANELOGO](Figuras/dane_logo.PNG)
+![DANELOGO](Figuras/dane_logo.png)
  
  # Percepción de Confianza [Mintic]
 
