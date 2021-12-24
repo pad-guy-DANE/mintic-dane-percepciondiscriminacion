@@ -10,10 +10,11 @@ Este repositorio contiene las bases de datos de los Tweets publicados por DANE_C
 ## Contenido
 
 1. [Tecnologías usadas](#tecnologías)
+2. [Datasets](#datasets)
+3. [Dashboard](#dashboard)
+
 2. [Piloto DataSandbox](#piloto)
-3. [Datasets](#datasets)
 <!--- 4. [Diccionarios](#diccionarios) -->
-4. [Dashboard](#dashboard)
 
 ## Tecnologías usadas
 
@@ -31,13 +32,16 @@ Python
 
 Se encuentran dos bases de datos principales (ubicadas en [`Datos-Ejemplo/Para-Modelo`](Datos-Ejemplo/Para-Modelo)):
 
-* ``popular_base.rar`` <br>
 * ``popular_posts_categories.rar`` <br>
+Este archivo, consta de 10 carpetas correspondientes a posts de perfiles públicos de Facebook organizados en categorías.
+
+* ``popular_base.rar`` <br>
+Este archivo, consta de 42 bases correspondientes a comentarios asociados a posts de 36 perfiles públicos de Facebook.
 
 En adición, se encuentra una bases de datos (ubicada en [`Datos-Ejemplo/Procesados`](Datos-Ejemplo/Procesados)):
 
 * ``cwg.part01.rar`` y ``cwg.part02.rar`` <br>
-
+Esta base consta de 771502 registros, correspondientes a posts y sus comentarios asociados para los, junto con preprocesamiento de texto de post y de comentario.
 
 ## Dashboard
 
