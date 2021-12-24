@@ -1,6 +1,6 @@
-![DANELOGO](Figuras/dane_logo.png)
+![DANELOGO](Figuras/dane_logo.PNG)
  
- # Percepción de Confianza [Mintic]
+ # Percepción de Discriminación [Mintic]
 
 La medición de la percepción de la confianza en el instituto nacional de estadísticas se enmarca en el propósito de la  (OCDE, 2017) de fortalecer las estadísticas oficiales para la medición del capital social, como parte de un sistema robusto para la comprensión y medición del bienestar. Surgió como respuesta a la Iniciativa de Paris 21 promueve la medición de la confianza de los ciudadanos en los institutos nacionales de estadísticas, los sistemas estadísticos nacionales y las estadísticas oficiales. La confianza en las estadísticas, según (PARIS 21, 2019) se entiende como la credibilidad en los productos estadísticos producidos en el Sistema Estadístico Nacional, el cual actúa como un proveedor de formación estadística creíble, precisa y oportuna libre de interferencia política inapropiada. 
 En este sentido, el objetivo del proyecto es medir la percepción y confianza que tienen los usuarios de Twitter frente al DANE y a los productos estadísticos, a través del uso de fuentes alternativas para la captura de datos y el diseño e implementación de técnicas y metodologías de procesamiento de lenguaje natural y análisis de sentimientos.
@@ -17,13 +17,11 @@ Este repositorio contiene las bases de datos de los Tweets publicados por DANE_C
 
 ## Tecnologías usadas
 
-Este ejercicio fue desarrollado utilizando el servicio de computación en la nube creado por Microsoft, [Microsoft Azure](https://azure.microsoft.com/es-es/). En adición, fue utlizada las plataformas [Databricks](https://databricks.com/) y [Google Drive](https://www.google.com/intl/es_co/drive/) así como los lenguajes de programación [Python](https://www.python.org/) y [RStudio](https://rstudio.com/).
+Este ejercicio fue desarrollado utilizando el servicio de computación en la nube creado por Microsoft, [Microsoft Azure](https://azure.microsoft.com/es-es/). En adición, fue utlizada las plataformas [Databricks](https://databricks.com/) y [Google Drive](https://www.google.com/intl/es_co/drive/) así como los lenguajes de programación [Python](https://www.python.org/).
 
 De igual manera se usaron las siguientes librerías:
 
 Python
 - Pandas
 - Plotly
-
-RStudio
-- jsonlite
+- facebook_scraper
