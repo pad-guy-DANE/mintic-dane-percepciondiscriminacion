@@ -12,8 +12,8 @@ Este repositorio contiene las bases de datos de los Tweets publicados por DANE_C
 1. [Tecnologías usadas](#tecnologías)
 2. [Piloto DataSandbox](#piloto)
 3. [Datasets](#datasets)
-4. [Diccionarios](#diccionarios)
-5. [Dashboard](#dashboard)
+<!--- 4. [Diccionarios](#diccionarios) -->
+4. [Dashboard](#dashboard)
 
 ## Tecnologías usadas
 
@@ -26,6 +26,17 @@ Python
 - Plotly
 - facebook_scraper
 
+
+## Datasets
+
+- Se encuentran dos bases de datos principales (ubicadas en [`Datos-Ejemplo/Para-Modelo`](Datos-Ejemplo/Para-Modelo)):
+
+* ``popular_base.rar`` <br>
+* ``popular_posts_categories.rar`` <br>
+
+- Se encuentra una bases de datos (ubicadaa en [`Datos-Ejemplo/Procesados`](Datos-Ejemplo/Procesados)):
+
+* ``cwg.part01.rar`` <br>  y ``cwg.part02.rar`` <br>
 
 
 ## Dashboard
