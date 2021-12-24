@@ -34,11 +34,11 @@ Python
 * ``popular_base.rar`` <br>
 * ``popular_posts_categories.rar`` <br>
 
-- Se encuentra una bases de datos (ubicadaa en [`Datos-Ejemplo/Procesados`](Datos-Ejemplo/Procesados)):
+- Se encuentra una bases de datos (ubicada en [`Datos-Ejemplo/Procesados`](Datos-Ejemplo/Procesados)):
 
 * ``cwg.part01.rar`` <br>  y ``cwg.part02.rar`` <br>
 
 
 ## Dashboard
 
-En la ubicación [`App/Despligue`](https://github.com/pad-guy-DANE/mintic-dane-percepciondiscriminacion/tree/main/App/Despliegue) se encuentra tanto el Notebook ``dashboard_dev_dane.ipynb`` como el modelo de dashboard ``dashboard_percepciondisc_dane.html`` desarrollados para este ejercicio exploratorio con información referente al conjunto de datos ``cwg.csv``.
+En la ubicación [`App/Despligue`](App/Despliegue) se encuentra tanto el Notebook ``dashboard_dev_dane.ipynb`` como el modelo de dashboard ``dashboard_percepciondisc_dane.html`` desarrollados para este ejercicio exploratorio con información referente al conjunto de datos ``cwg.csv``.
