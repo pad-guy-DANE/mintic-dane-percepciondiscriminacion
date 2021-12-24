@@ -25,3 +25,9 @@ Python
 - Pandas
 - Plotly
 - facebook_scraper
+
+
+
+## Dashboard
+
+En la ubicación [`App/Despligue`](App/Despligue) se encuentra tanto el Notebook ``dashboard_dev_dane.ipynb`` como el modelo de dashboard ``dashboard_percepciondisc_dane.html`` desarrollados para este ejercicio exploratorio con información referente al conjunto de datos ``cwg.csv``.
