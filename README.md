@@ -1,2 +1,2 @@
-# mintic-dane-percepciondiscriminacion
-Ejercicio de percepción de discriminación desde fuentes Facebook
+ # Ésta es una estructura de directorio de proyecto general  para el proyecto de Mintic Desarrollado por BEX.
+ 
