@@ -30,4 +30,4 @@ Python
 
 ## Dashboard
 
-En la ubicación [`App/Despligue`](App/Despligue) se encuentra tanto el Notebook ``dashboard_dev_dane.ipynb`` como el modelo de dashboard ``dashboard_percepciondisc_dane.html`` desarrollados para este ejercicio exploratorio con información referente al conjunto de datos ``cwg.csv``.
+En la ubicación [`App/Despligue`](mintic-dane-percepciondiscriminacion/App/Despligue) se encuentra tanto el Notebook ``dashboard_dev_dane.ipynb`` como el modelo de dashboard ``dashboard_percepciondisc_dane.html`` desarrollados para este ejercicio exploratorio con información referente al conjunto de datos ``cwg.csv``.
