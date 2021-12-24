@@ -36,7 +36,7 @@ Python
 
 - Se encuentra una bases de datos (ubicada en [`Datos-Ejemplo/Procesados`](Datos-Ejemplo/Procesados)):
 
-* ``cwg.part01.rar`` <br>  y ``cwg.part02.rar`` <br>
+* ``cwg.part01.rar`` y ``cwg.part02.rar`` <br>
 
 
 ## Dashboard
