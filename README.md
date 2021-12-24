@@ -13,8 +13,10 @@ Este repositorio contiene las bases de datos de los Tweets publicados por DANE_C
 2. [Datasets](#datasets)
 3. [Dashboard](#dashboard)
 
+<!--- 
 2. [Piloto DataSandbox](#piloto)
-<!--- 4. [Diccionarios](#diccionarios) -->
+4. [Diccionarios](#diccionarios)
+-->
 
 ## Tecnologías usadas
 
