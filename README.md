@@ -29,12 +29,12 @@ Python
 
 ## Datasets
 
-- Se encuentran dos bases de datos principales (ubicadas en [`Datos-Ejemplo/Para-Modelo`](Datos-Ejemplo/Para-Modelo)):
+Se encuentran dos bases de datos principales (ubicadas en [`Datos-Ejemplo/Para-Modelo`](Datos-Ejemplo/Para-Modelo)):
 
 * ``popular_base.rar`` <br>
 * ``popular_posts_categories.rar`` <br>
 
-- Se encuentra una bases de datos (ubicada en [`Datos-Ejemplo/Procesados`](Datos-Ejemplo/Procesados)):
+En adición, se encuentra una bases de datos (ubicada en [`Datos-Ejemplo/Procesados`](Datos-Ejemplo/Procesados)):
 
 * ``cwg.part01.rar`` y ``cwg.part02.rar`` <br>
 
