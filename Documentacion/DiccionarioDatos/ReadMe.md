@@ -1,2 +1,0 @@
-# Diccionario de datos
-
