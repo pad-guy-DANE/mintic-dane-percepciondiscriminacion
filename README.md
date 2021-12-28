@@ -1,19 +1,27 @@
 ![DANELOGO](Figuras/dane_logo.PNG)
  
- # Percepción de Discriminación [Mintic]
+# Percepción de Discriminación [Mintic]
 
-La medición de la percepción de la confianza en el instituto nacional de estadísticas se enmarca en el propósito de la  (OCDE, 2017) de fortalecer las estadísticas oficiales para la medición del capital social, como parte de un sistema robusto para la comprensión y medición del bienestar. Surgió como respuesta a la Iniciativa de Paris 21 promueve la medición de la confianza de los ciudadanos en los institutos nacionales de estadísticas, los sistemas estadísticos nacionales y las estadísticas oficiales. La confianza en las estadísticas, según (PARIS 21, 2019) se entiende como la credibilidad en los productos estadísticos producidos en el Sistema Estadístico Nacional, el cual actúa como un proveedor de formación estadística creíble, precisa y oportuna libre de interferencia política inapropiada. 
-En este sentido, el objetivo del proyecto es medir la percepción y confianza que tienen los usuarios de Twitter frente al DANE y a los productos estadísticos, a través del uso de fuentes alternativas para la captura de datos y el diseño e implementación de técnicas y metodologías de procesamiento de lenguaje natural y análisis de sentimientos.
-La información estadística derivada de este proyecto contribuye a conocer la percepción de los diferentes usuarios en las estadísticas producidas por el DANE, desagregada a nivel geográfico, así como conocer quiénes son los usuarios más activos en Twitter, los temas más recurrentes y cuál es la polaridad de sus opiniones, y aspectos como la relación de esta percepción con las diferentes publicaciones del DANE, lo cual puede contribuir a la gestión de la difusión y la cultura estadística en el DANE. 
-Este repositorio contiene las bases de datos de los Tweets publicados por DANE_Colombia, desde octubre de 2020 hasta enero de 2021, descargados mediante técnicas de web scraping mediante el [API de Twitter](https://developer.twitter.com/en/docs/twitter-api), así como los diccionarios de datos de estas bases. Este ejercicio exploratorio se desarrolla como uno de los proyectos de la línea de aprovechamiento de fuentes de información alternativas (Twitter) de la Coordinación de Prospectiva y Analítica de Datos de la Dirección de Regulación, Planificación, Estandarización y Normalización (DIRPEN) del DANE.
+El DANE, como coordinador del Sistema Estadístico Nacional (SEN), busca impulsar la innovación en la producción y difusión de las estadísticas oficiales y en el uso estadístico de registros administrativos y, en esa medida, viene trabajando desde hace algunos años en algunos proyectos que propenden por el uso de fuentes secundarias y metodologías alternativas para el análisis de los datos. 
+
+Dentro de estos proyectos se encuentra la Medición de los indicadores ODS 16.b.1. Proporción de la población que declara haber experimentado personalmente discriminación o acoso en los últimos 12 meses por un motivo de discriminación prohibido por el derecho internacional de los derechos humanos y 16.7.2 Proporción de la población que cree que la toma de decisiones es inclusiva y receptiva, por sexo, edad, discapacidad y grupo de población, a través de redes sociales (Facebook y Twitter).  
+
+En términos generales, la metodología responde a un problema clásico de procesamiento de lenguaje natural (PLN), es decir que para un conjunto de datos dado se identificó si los datos están relacionados con algún tema. Se empleó un análisis semisupervisado, en el que se definen los términos de búsqueda y se busca en el conjunto de datos para identificar estos términos y los correlacionados con ellos. Luego se construyó un modelo que "aprendiera" a identificar esos conceptos en determinados contextos y los asociara con la discriminación. Posteriormente, se contrastará con un análisis supervisado basado en comentarios etiquetados por marcadores humanos.
+
+Para el desarrollo de este proyecto el DANE viene recibiendo el apoyo de la iniciativa D4N, codirigido por la División de Estadística de las Naciones Unidas, el Banco Mundial, la Asociación Mundial para los Datos sobre el Desarrollo Sostenible y la Red de Soluciones para el Desarrollo Sostenible, la cual tiene como objetivo apoyar a los países en el uso de fuentes, tecnologías y métodos innovadores para la producción y difusión racionalizada de datos mejores, más oportunos y desglosados para el desarrollo sostenible, en sintonía con los postulados misionales del DANE como coordinador del SEN. Asimismo, el DANE ha contado con un acompañamiento para la definición del marco conceptual por parte de la Consejería Presidencial para los Derechos Humanos (CPDAI).
+
+El equipo de trabajo del DANE continuará avanzando en 	la profundización de la visualización de los resultados, la exploración de otros modelos para contrastar los resultados de esta versión preliminar y el desarrollo de estrategias para garantizar la calidad de la recogida, el tratamiento y el análisis de los datos.
 
 ## Contenido
 
 1. [Tecnologías usadas](#tecnologías)
+2. [Datasets](#datasets)
+3. [Dashboard](#dashboard)
+
+<!--- 
 2. [Piloto DataSandbox](#piloto)
-3. [Datasets](#datasets)
 4. [Diccionarios](#diccionarios)
-5. [Dashboard](#dashboard)
+-->
 
 ## Tecnologías usadas
 
@@ -25,3 +33,23 @@ Python
 - Pandas
 - Plotly
 - facebook_scraper
+
+
+## Datasets
+
+Se encuentran dos bases de datos principales (ubicadas en [`Datos-Ejemplo/Para-Modelo`](Datos-Ejemplo/Para-Modelo)):
+
+* ``popular_posts_categories.rar`` <br>
+Este archivo, consta de 10 carpetas correspondientes a posts de perfiles públicos de Facebook organizados en categorías.
+
+* ``popular_base.rar`` <br>
+Este archivo, consta de 42 bases correspondientes a comentarios asociados a posts de 36 perfiles públicos de Facebook.
+
+En adición, se encuentra una base de datos (ubicada en [`Datos-Ejemplo/Procesados`](Datos-Ejemplo/Procesados)):
+
+* ``cwg.part01.rar`` y ``cwg.part02.rar`` <br>
+Esta base consta de 771502 registros, correspondientes a posts y sus comentarios asociados para los, junto con preprocesamiento de texto de post y de comentario.
+
+## Dashboard
+
+En la ubicación [`App/Despligue`](App/Despliegue) se encuentra tanto el Notebook ``dashboard_dev_dane.ipynb`` como el modelo de dashboard ``dashboard_percepciondisc_dane.html`` desarrollados para este ejercicio exploratorio con información referente al conjunto de datos ``cwg.csv``.
