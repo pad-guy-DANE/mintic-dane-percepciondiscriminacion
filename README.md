@@ -48,7 +48,7 @@ Este archivo, consta de 42 bases correspondientes a comentarios asociados a post
 En adición, se encuentra una base de datos (ubicada en [`Datos-Ejemplo/Procesados`](Datos-Ejemplo/Procesados)):
 
 * ``cwg.part01.rar`` y ``cwg.part02.rar`` <br>
-Esta base consta de 771502 registros, correspondientes a posts y sus comentarios asociados para los, junto con preprocesamiento de texto de post y de comentario.
+Esta base consta de 771502 registros, correspondientes a posts y sus comentarios asociados, junto con preprocesamiento de texto de post y de comentario.
 
 ## Dashboard
 
